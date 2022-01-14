@@ -1,0 +1,85 @@
+input{
+	display: flex;
+	border: none;
+	border-bottom: solid 1px #ccc;
+}
+
+body{
+	margin: 0;
+	padding-top: 10px;
+	padding-left: 10px;
+}
+
+h3{
+	padding-left: 5px;
+}
+
+img{
+	padding-right: 10px;
+	width: 30px;
+	height: 30px;
+}
+
+.first{
+	width: 40%;
+}
+
+.one{
+	display: inline;
+}
+
+.user{
+	display: flex;
+	padding-bottom: 5px;
+}
+
+.email{
+	display: flex;
+	padding-bottom: 5px;
+}
+
+.two{
+	display: flex;
+	align-content: space-between;
+	width: 99%;
+}
+
+.twoo{
+	display: flex;
+}
+
+.twoone{
+	padding-top: 11px;
+}
+
+.two{
+	display: flex;
+	justify-content: space-between;
+}
+
+.check{
+	display: flex;
+	padding-top: 15px;
+	padding-left: 10px;
+	width: 100%;
+}
+
+.first, .second{
+	display: inline-block;
+}
+
+.one, input[type="text"]{
+	width: 100%;
+}
+
+.one, input[type="email"]{
+	width: 100%;
+}
+
+.twoo, input[type="password"]{
+	width: 100%;
+}
+
+.twoone, input[type="password"]{
+	width: 100%;
+}
