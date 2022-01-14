@@ -1,0 +1,76 @@
+@media (min-width: 600px) and (max-width: 900px){
+
+	h3{
+		padding-top: 15px;
+		margin: 0;
+		padding-bottom: 15px;
+	}
+
+	input[type="email"]{
+		width: 100%;
+	}
+
+	input[type="text"]{
+		width: 100%;
+	}
+
+	.first{
+		display: flex;
+		width: 100%;
+	}
+}
+
+@media (max-width: 600px){
+
+
+	input[type="text"]{
+		width: 100%;
+	}
+
+	input[type="email"]{
+		width: 100%;
+	}
+
+	h3{
+		padding-top: 15px;
+		margin: 0;
+		padding-bottom: 15px;
+	}
+
+	.first{
+		display: flex;
+		width: 100%;
+	}
+
+	.one{
+		width: 100%;
+	}
+
+	.two{
+		display: inline-block;
+		width: 100%;
+	}
+
+	.twoone{
+		padding-left: 40px;
+	}
+
+	.name{
+		display: inline-block;
+		width: 100%;
+	}
+
+	.month{
+		display: inline-block;
+		width: 100%;
+	}
+
+	.styled-select{
+		padding-bottom: 20px;
+	}
+
+	.name, .month{
+		margin-left: 8px;
+	}
+
+}
